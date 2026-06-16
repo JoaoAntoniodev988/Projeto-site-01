@@ -165,7 +165,7 @@ footer {
     top: 0;
     display: flex;
     align-items: center; /* Centraliza logo, links e busca verticalmente */
-    justify-content: flex-start; /* Empurra o logo para a esquerda e a busca para a direita */
+    justify-content: space-between; /* Empurra o logo para a esquerda e a busca para a direita */
     z-index: 9999;
     height: 60px;
     background-color: var( --cor-fundo-site);
