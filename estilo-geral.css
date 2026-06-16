@@ -275,9 +275,15 @@ footer {
         display: flex;
         list-style: none;
         gap: 45px;
+        justify-content: space-around; /* Distribui os 5 itens igualmente pela largura */
+        align-items: center;
+        height: 100%; 
     }
 
     menu a {
+        display: flex;
+        flex-direction: column;        /* Alinha os elementos em linha vertical (coluna) */
+        align-items: center;           /* Centraliza o ícone e o texto horizontalmente entre si */
         color: var(--cor-texto-escuro);
         font-size: small;
         text-decoration: none;
