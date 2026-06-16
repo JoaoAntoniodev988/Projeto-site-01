@@ -185,12 +185,14 @@ footer {
         width: 100%; /* Ocupa 90% do ecrã de forma limpa */ 
         margin: auto; 
         display: grid; /* Divide o meio em duas colunas: 3 partes para o texto do artigo e 1 parte para a barra lateral */
-        grid-template-columns: 1fr;       
+        grid-template-columns: 1fr; 
+        hyphens: auto;      
     }
 
     main h1 {
         font-size: 1.6em;
         text-align: left;
+        padding-left: 10px ;
     }
 
     main h2 {
@@ -200,7 +202,7 @@ footer {
     main article { 
         border: none;
         max-width: 98%;
-        padding: 20px 15px;
+        padding: 20px 10px;
         border-radius: 0px 0px 25px 25px;
         border-right: none;
         border-left: none;
@@ -211,7 +213,7 @@ footer {
 
     main .joao-obra {
         background-color: var(--cor-fundo-card);
-        padding: 20px 15px;
+        padding: 20px 10px;
         max-width: 98%;
         border-radius: 0px 0px 25px 25px;
         box-shadow: 0px 0px 9px 2px #2929293f;
@@ -224,7 +226,7 @@ footer {
 
     main .percurso-guiado {
         background-color: var(--cor-fundo-card);
-        padding: 20px 15px;
+        padding: 20px 10px;
         max-width: 98%;
         border-radius: 0px 0px 25px 25px;
         box-shadow: 0px 0px 9px 2px #2929293f;
@@ -237,7 +239,7 @@ footer {
 
     main .lsta-de-livros {
         background-color: var(--cor-fundo-card);
-        padding: 20px 15px;
+        padding: 20px 10px;
         max-width: 98%;
         border-radius: 0px 0px 25px 25px;
         box-shadow: 0px 0px 9px 2px #2929293f;
