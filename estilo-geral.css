@@ -38,6 +38,7 @@ body { /*Divisão de três tabelas para (header, main e footer),congiguração d
     font-family: 'Roboto';
     font-size: 16px; /* Tamanho ideal para leitura de parágrafos */
     line-height: 1.6; /* Dá um espaçamento entre linhas confortável para os olhos */
+    hyphens: auto;
 }
 
 header {
