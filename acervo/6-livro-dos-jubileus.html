@@ -3,22 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <title>Livro dos Jubileus — Reconstrução Interpretativa e Exegese Gnóstica</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c99245ec2d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilo-geral.css">
+<style>
+        :root {
+        /* Cores Principais */
+        --cor-cabecalho: #2c2520;
+        --cor-destaque-ouro: #d4a43d;
+        --cor-logo-escura: #846226;
+        
+        /* Cores de Fundo */
+        --cor-fundo-site: #ececec;
+        --cor-fundo-card: #ffffff;
+        
+        /* Cores de Texto */
+        --cor-texto-escuro: #292929;
+        --cor-titulo-azul: #1e3d59;
+        --cor-link-azul: #3498db;
+        --cor-rodape: #333333;
+
+        /*Letras usadas*/
+        --fonte-titulo: 'Merriweather', 'Georgia', serif;
+        --texto-menu: 'Open Sans', "Lato" "Roboto" sans-serif;
+        }
+
+        main { /*Divisão do main para duas tabelas uma para o conteudo principal e a barra de do conteudo segundario*/
+            grid-template-columns: 1fr;
+        }
+
+        #livro-jubileus-tratado {
+            background-color: var(--cor-fundo-card);
+            box-shadow: 0px 0px 9px 2px #2929293f;
+            border-right: 4px solid #846226;
+            border-left: 4px solid #846226;
+            margin: auto;
+
+        }
+
+         #livro-jubileus-tratado p {
+             margin: 15px;
+         }
+
+        ul {
+            padding-left: 45px;
+        }
+
+        li {
+            margin: 10px 0px;
+        }
+
+        dl {
+            margin: 0px 0px 15px 15px;
+        }
+
+        dt {
+            margin: 10px 0px;
+        }
+
+        blockquote {
+            margin: 0px 15px;
+        }
+
+        .exegese p {
+            margin: 15px;
+        } 
+
+</style>
 </head>
 <body>
 
     <!-- CABEÇALHO DO DOCUMENTO -->
-    <header>
-        <p><a href="../biblioteca.html">&larr; Voltar ao Índice do Acervo</a></p>
-        <p>Portal Livros Apócrifos &bull; Arquivo Intertestamentário do Segundo Templo</p>
-        <h1>Livro dos Jubileus</h1>
-        <h2>Reconstrução Interpretativa e Exegese Gnóstica</h2>
-    </header>
+   <header>
+            <a href="../../index.html"><h1>BIBLIOTECA <br> APÓCRIFA</h1></a>
+            <i class="fa-solid fa-bars"></i>
 
-    <hr>
+            <nav>
+                <menu>
+                    <a href="../../index.html">Início</a>
+                    <a href="../../paginas/biblioteca1.html"> Livros</a>
+                    <a href="../../paginas/area-de-leitura.html">Área de Leitura</a>
+                </menu>
+            </nav>
+        </header>
 
     <!-- CONTEÚDO PRINCIPAL DO TRATADO -->
     <main>
         <article id="livro-jubileus-tratado">
+
+            <h1>Livro dos Jubileus — Reconstrução Interpretativa e Exegese Gnóstica</h1>
 
             <!-- INTRODUÇÃO -->
             <section id="introducao">
@@ -233,9 +308,23 @@
         </article>
     </main>
 
-    <!-- RODAPÉ CRÍTICO -->
+      <!-- RODAPÉ CRÍTICO -->
+       <menu id="nav-baixo">      
+        <ul>
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i><span>Início</span></a></li>
+            <li><a href="../biblioteca1.html"><i class="fa-solid fa-book-open-reader"></i><span>Biblioteca</span></a></li>
+            <li> <a href="paginas/area-de-leitura.html"><i class="fa-solid fa-hand-holding-heart"></i><span>Ajude o Projeto</span></a></li>
+        </ul>
+    </menu>
+
+      <aside>
+        <h3>Nota do Editor</h3>
+        <p>Este site possui fins puramente históricos, literários e académicos. O nosso objetivo é preservar e disponibilizar o acesso à literatura antiga.</p>
+    </aside>
+
     <footer>
-        <p>&copy; 2026 Portal Livros Apócrifos. Estruturação Semântica, Hermenêutica Comparada e Fixação de Texto.</p>
+         <p> &copy; 2026 Site criado para fins acâmedicos. Todos os direitos reservado</p>
+        <p>Autor: <em>João de Sousa António</em> </p>
     </footer>
 
 </body>

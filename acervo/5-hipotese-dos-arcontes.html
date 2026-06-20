@@ -3,64 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <title>Hipóstase dos Arcontes — Reconstrução Interpretativa e Exegese Gnóstica</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c99245ec2d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilo-geral.css">
+<style>
+        :root {
+        /* Cores Principais */
+        --cor-cabecalho: #2c2520;
+        --cor-destaque-ouro: #d4a43d;
+        --cor-logo-escura: #846226;
+        
+        /* Cores de Fundo */
+        --cor-fundo-site: #ececec;
+        --cor-fundo-card: #ffffff;
+        
+        /* Cores de Texto */
+        --cor-texto-escuro: #292929;
+        --cor-titulo-azul: #1e3d59;
+        --cor-link-azul: #3498db;
+        --cor-rodape: #333333;
+
+        /*Letras usadas*/
+        --fonte-titulo: 'Merriweather', 'Georgia', serif;
+        --texto-menu: 'Open Sans', "Lato" "Roboto" sans-serif;
+        }
+
+        main { /*Divisão do main para duas tabelas uma para o conteudo principal e a barra de do conteudo segundario*/
+            grid-template-columns: 1fr;
+        }
+
+        #hipostase-arcontes-tratado {
+            background-color: var(--cor-fundo-card);
+            box-shadow: 0px 0px 9px 2px #2929293f;
+            border-right: 4px solid #846226;
+            border-left: 4px solid #846226;
+            margin: auto;
+
+        }
+
+         #hipostase-arcontes-tratado p {
+             margin: 15px;
+         }
+
+        ul {
+            padding-left: 45px;
+        }
+
+        li {
+            margin: 10px 0px;
+        }
+
+        dl {
+            margin: 0px 0px 15px 15px;
+        }
+
+        dt {
+            margin: 10px 0px;
+        }
+
+        blockquote {
+            margin: 0px 15px;
+        }
+
+        .exegese p {
+            margin: 15px;
+        } 
+
+</style>
+    
 </head>
 <body>
 
     <!-- CABEÇALHO DO DOCUMENTO -->
-    <header>
-        <p><a href="../biblioteca.html">&larr; Voltar ao Índice do Acervo</a></p>
-        <p>Portal Livros Apócrifos &bull; Arquivo Setiano de Nag Hammadi</p>
-        <h1>Hipóstase dos Arcontes</h1>
-        <h2>Reconstrução Interpretativa e Exegese Gnóstica</h2>
-    </header>
+   <header>
+            <a href="../../index.html"><h1>BIBLIOTECA <br> APÓCRIFA</h1></a>
+            <i class="fa-solid fa-bars"></i>
 
-    <hr>
+            <nav>
+                <menu>
+                    <a href="../../index.html">Início</a>
+                    <a href="../../paginas/biblioteca1.html"> Livros</a>
+                    <a href="../../paginas/area-de-leitura.html">Área de Leitura</a>
+                </menu>
+            </nav>
+        </header>
 
     <!-- CONTEÚDO PRINCIPAL DO TRATADO -->
     <main>
         <article id="hipostase-arcontes-tratado">
 
+            <h1>Hipóstase dos Arcontes — Reconstrução Interpretativa e Exegese Gnóstica</h1>
+
             <!-- INTRODUÇÃO -->
             <section id="introducao">
                 <h2>INTRODUÇÃO: O GÉNESIS VISTO DE BAIXO</h2>
                 <div class="nota-editorial">
-                    <p>A <em>Hipóstase dos Arcontes</em> — cujo título em grego significa literalmente "A Realidade dos Governadores" ou "A Substância dos Arcontes" — é um dos textos mais tecnicamente precisos e filosoficamente densos de toda a biblioteca de Nag Hammadi[cite: 1]. Foi encontrada no Códice II, o mesmo que contém o <em>Evangelho de Tomás</em> e o <em>Livro de Tomás o Contendente</em> que já conheces[cite: 1].</p>
-                    <p>O texto é estruturalmente dividido em duas partes muito distintas[cite: 1]. A primeira é uma releitura gnóstica do <em>Génesis</em> — dos capítulos 1 a 6 — que desfaz sistematicamente cada elemento da narrativa canónica e revela o que os gnósticos consideravam ser a verdade oculta por detrás dela[cite: 1]. A segunda é uma revelação apocalíptica transmitida por um anjo chamado Eleleth, que descreve a origem dos Arcontes, a estrutura dos mundos inferiores e o destino final das almas[cite: 1].</p>
-                    <p>O que distingue este texto de todos os outros que estudámos é a sua precisão ontológica[cite: 1, 2]. Não está interessado em experiências místicas nem em jornadas da alma[cite: 2]. Está interessado em compreender exactamente o que são os Arcontes — a sua natureza, a sua origem, os seus limites — e exactamente o que é o ser humano em relação a eles[cite: 1, 2]. É um texto filosófico disfarçado de mitologia[cite: 2].</p>
+                    <p>A <em>Hipóstase dos Arcontes</em> — cujo título em grego significa literalmente "A Realidade dos Governadores" ou "A Substância dos Arcontes" — é um dos textos mais tecnicamente precisos e filosoficamente densos de toda a biblioteca de Nag Hammadi. Foi encontrada no Códice II, o mesmo que contém o <em>Evangelho de Tomás</em> e o <em>Livro de Tomás o Contendente</em>.</p>
+
+                    <p>O texto é estruturalmente dividido em duas partes muito distintas. A primeira é uma releitura gnóstica do <em>Génesis</em> — dos capítulos 1 a 6 — que desfaz sistematicamente cada elemento da narrativa canónica e revela o que os gnósticos consideravam ser a verdade oculta por detrás dela. A segunda é uma revelação apocalíptica transmitida por um anjo chamado Eleleth, que descreve a origem dos Arcontes, a estrutura dos mundos inferiores e o destino final das almas.</p>
+                    <p>O que distingue este texto de todos os outros que estudámos é a sua precisão ontológica. Não está interessado em experiências místicas nem em jornadas da alma. Está interessado em compreender exactamente o que são os Arcontes — a sua natureza, a sua origem, os seus limites — e exactamente o que é o ser humano em relação a eles. É um texto filosófico disfarçado de mitologia.</p>
                 </div>
             </section>
-
-            <hr>
 
             <!-- PARTE I -->
             <section id="parte-1">
                 <h2>PARTE I — A ARROGÂNCIA DO INÍCIO: SACLAS E A SUA PROCLAMAÇÃO</h2>
                 
                 <div class="texto-sagrado">
-                    <p>O texto abre com uma citação directa de Paulo — <q>A nossa luta não é contra a carne e o sangue, mas contra os principados e as potestades</q> (Efésios 6:12) — e usa-a como ponto de partida para uma investigação: quem são realmente estes principados e potestades[cite: 2]?</p>
-                    <p>A resposta começa com a origem[cite: 2]. O texto descreve como, no princípio, existia apenas a Luz Incorruptível acima de tudo[cite: 2]. Abaixo dela havia as águas primordiais — não ainda o mundo material, mas o espaço do potencial informe[cite: 2].</p>
-                    <p>Da sombra que a Luz projecta sobre as águas surge uma força — descrita como poderosa, cega e arrogante[cite: 2]. Esta força olha para as águas, vê o seu próprio reflexo, e proclama:</p>
+                    <p>O texto abre com uma citação directa de Paulo — <q>A nossa luta não é contra a carne e o sangue, mas contra os principados e as potestades</q> (Efésios 6:12) — e usa-a como ponto de partida para uma investigação: quem são realmente estes principados e potestades?</p>
+                    <p>A resposta começa com a origem. O texto descreve como, no princípio, existia apenas a Luz Incorruptível acima de tudo. Abaixo dela havia as águas primordiais — não ainda o mundo material, mas o espaço do potencial informe.</p>
+                    <p>Da sombra que a Luz projecta sobre as águas surge uma força — descrita como poderosa, cega e arrogante. Esta força olha para as águas, vê o seu próprio reflexo, e proclama:</p>
                     <blockquote>
                         <p>"Eu sou Deus e não há outro além de mim."</p>
                     </blockquote>
-                    <p>Esta força é <strong>Saclas</strong> — outro nome de Ialdabaoth, o Demiurgo que já conhecemos[cite: 2]. Mas aqui o texto acrescenta um detalhe que os outros textos não tinham: quando Saclas faz esta proclamação, uma voz vem do alto e diz:</p>
+                    <p>Esta força é <strong>Saclas</strong> — outro nome de Ialdabaoth, o Demiurgo que já conhecemos. Mas aqui o texto acrescenta um detalhe que os outros textos não tinham: quando Saclas faz esta proclamação, uma voz vem do alto e diz:</p>
                     <blockquote>
                         <p>"Estás errado, Saclas — e isto é o nome do Deus da Cegueira."</p>
                     </blockquote>
-                    <p>E a voz acrescenta: <q>O Ser Humano Imortal existe antes de ti.</q>[cite: 2]</p>
-                    <p>Saclas ouve esta voz mas não a compreende[cite: 2]. Não sabe de onde vem[cite: 2]. Não sabe o que significa[cite: 2]. Continua a proclamar a sua divide — mas já foi desmentido antes de ter começado[cite: 2].</p>
+                    <p>E a voz acrescenta: <q>O Ser Humano Imortal existe antes de ti.</q></p>
+                    <p>Saclas ouve esta voz mas não a compreende. Não sabe de onde vem. Não sabe o que significa. Continua a proclamar a sua divindade — mas já foi desmentido antes de ter começado.</p>
                 </div>
 
                 <aside class="exegese">
                     <h3>🔍 Exegese da Parte I</h3>
-                    <p>Esta abertura é de uma economia narrativa extraordinária[cite: 2]. Em poucas linhas o texto estabelece a estrutura fundamental de toda a sua cosmologia: há uma Luz acima, há uma cegueira abaixo, e entre as duas há uma voz que enuncia a verdade que a cegueira não consegue ouvir[cite: 2].</p>
-                    <p>O nome Saclas — diferente de Ialdabaoth mas referindo-se ao mesmo ser — significa em aramaico "o tolo"[cite: 2]. É um nome que condensa a sua natureza: não é primariamente mau — é primariamente ignorante[cite: 2]. A sua arrogância não nasce da malícia mas da limitação[cite: 2]. Não pode ver o que está acima dele porque é cego à Luz que não projecta sombra[cite: 2].</p>
-                    <p>A voz que o desmente imediatamente é crucial[cite: 2]. Na cosmologia desta Hipóstase, a verdade é sempre enunciada antes de a mentira se estabelecer completamente[cite: 2]. Saclas proclama que é o único Deus — e imediatamente é contradito[cite: 2]. O erro não vai sem correcção — a correcção apenas não é ouvida por quem está fechado à Luz[cite: 2].</p>
-                    <p>A referência ao Ser Humano Imortal que existe antes de Saclas é a primeira articulação de um tema que vai dominar o texto inteiro: o ser humano não é uma criatura de Saclas — é anterior a ele, superior a ele, e carrega dentro de si algo que ele não pode compreender nem destruir[cite: 2].</p>
+                    <p>Esta abertura é de uma economia narrativa extraordinária. Em poucas linhas o texto estabelece a estrutura fundamental de toda a sua cosmologia: há uma Luz acima, há uma cegueira abaixo, e entre as duas há uma voz que enuncia a verdade que a cegueira não consegue ouvir.</p>
+                    <p>O nome Saclas — diferente de Ialdabaoth mas referindo-se ao mesmo ser — significa em aramaico "o tolo". É um nome que condensa a sua natureza: não é primariamente mau — é primariamente ignorante. A sua arrogância não nasce da malícia mas da limitação. Não pode ver o que está acima dele porque é cego à Luz que não projecta sombra.</p>
+                    <p>A voz que o desmente imediatamente é crucial. Na cosmologia desta Hipóstase, a verdade é sempre enunciada antes da mentira se estabelecer completamente. Saclas proclama que é o único Deus — e imediatamente é contradito. O erro não vai sem correcção — a correcção apenas não é ouvida por quem está fechado à Luz.</p>
+                    <p>A referência ao Ser Humano Imortal que existe antes de Saclas é a primeira articulação de um tema que vai dominar o texto inteiro: o ser humano não é uma criatura de Saclas — é anterior a ele, superior a ele, e carrega dentro de si algo que ele não pode compreender nem destruir.</p>
                 </aside>
             </section>
-
-            <hr>
 
             <!-- PARTE II -->
             <section id="parte-2">
@@ -84,8 +157,6 @@
                     <p>O Jardim do Éden como prisão — uma ideia que já encontrámos no <em>Apócrifo de João</em> — é aqui desenvolvida com mais detalhe. É uma prisão sofisticada — não tem grades visíveis, tem árvores e água e aparente liberdade. A sofisticação da prisão é parte da sua eficácia.</p>
                 </aside>
             </section>
-
-            <hr>
 
             <!-- PARTE III -->
             <section id="parte-3">
@@ -141,8 +212,6 @@
                 </aside>
             </section>
 
-            <hr>
-
             <!-- PARTE V -->
             <section id="parte-5">
                 <h2>PARTE V — A REVELAÇÃO DE ELELETH: A ORIGEM DOS ARCONTES</h2>
@@ -151,7 +220,7 @@
                     <p>Norea pede a Eleleth que lhe revele a verdade sobre os Arcontes — a sua origem, a sua natureza, os seus limites. E Eleleth revela:</p>
                     <p>Antes de qualquer coisa existir havia a Incorruptibilidade — o estado original de perfeição. Da Incorruptibilidade emanou a Sophia — e de Sophia emergiu o Demiurgo Saclas em ignorância. Saclas criou os seus Arcontes e eles criaram o mundo material. Mas ao fazê-lo roubaram luz — a luz que estava nas águas, a luz que o Espírito havia depositado no potencial informe da criação.</p>
                     <p>O mundo material é portanto, na visão desta Hipóstase, não apenas um erro — é um roubo. A matéria contém luz roubada. E os Arcontes governam o mundo para manter esse roubo — para impedir que a luz regresse à sua fonte.</p>
-                    <p>But Eleleth revela também os limites dos Arcontes. O seu poder é real mas circunscrito. Governa o mundo material e as sete esferas. Não governa o décimo terceiro Éon onde Sophia foi restaurada. Não governa o Pleroma. Não governa a faísca de luz dentro do ser humano.</p>
+                    <p>Mas Eleleth revela também os limites dos Arcontes. O seu poder é real mas circunscrito. Governa o mundo material e as sete esferas. Não governa o décimo terceiro Éon onde Sophia foi restaurada. Não governa o Pleroma. Não governa a faísca de luz dentro do ser humano.</p>
                     <p>E há uma profecia:</p>
                     <blockquote>
                         <p>"O Ser Humano Verdadeiro virá e destruirá os Arcontes. Mas até esse momento eles terão poder no mundo."</p>
@@ -163,11 +232,9 @@
                     <p>A descrição do mundo material como roubo de luz é filosoficamente a mais radical de todos os textos que estudámos. Não é apenas um erro — é um crime cósmico. A matéria existe à custa da luz. Cada átomo de matéria contém luz aprisionada que foi arrancada ao Pleroma sem consentimento.</p>
                     <p>Esta visão tem implicações éticas que o texto não desenvolve explicitamente mas que são implícitas: se a luz está aprisionada na matéria, então trabalhar pela libertação da luz — pela gnose, pelo despertar, pela ascensão — não é apenas busca pessoal de salvação. É participação na correcção de uma injustiça cósmica. O gnóstico que desperta não salva apenas a si mesmo — liberta uma faísca de luz que estava sequestrada.</p>
                     <p>Os limites dos Arcontes são tão importantes como o seu poder. O texto insiste nisto com uma ênfase que parece pedagógica — como se os leitores a quem se dirige precisassem especificamente de ouvir que o poder que os oprime não é absoluto. Os Arcontes governam o mundo material mas não governam a totalidade do ser. A sua jurisdição tem fronteiras precisas.</p>
-                    <p>A profecia do Ser Humano Verdadeiro que destruirá os Arcontes é a dimensão escatológica do texto — a visão do fim do poder dos Arcontes. Não é uma destruição violenta — é uma dissolução gradual à medida que mais almas despertam e a luz retorna à sua fonte. O mundo material não acaba por catástrophe — acaba por esvaziamento progressivo da luz que o sustentava.</p>
+                    <p>A profecia do Ser Humano Verdadeiro que destruirá os Arcontes é a dimensão escatológica do texto — a visão do fim do poder dos Arcontes. Não é uma destruição violenta — é uma dissolução gradual à medida que mais almas despertam e a luz retorna à sua fonte. O mundo material não acaba por catástrofe — acaba por esvaziamento progressivo da luz que o sustentava.</p>
                 </aside>
             </section>
-
-            <hr>
 
             <!-- PARTE VI -->
             <section id="parte-6">
@@ -193,8 +260,6 @@
                 </aside>
             </section>
 
-            <hr>
-
             <!-- SÍNTESE DO CORPUS -->
             <section id="sintese">
                 <h2>Síntese: O que a Hipóstase dos Arcontes acrescenta</h2>
@@ -215,8 +280,22 @@
     </main>
 
     <!-- RODAPÉ CRÍTICO -->
+       <menu id="nav-baixo">      
+        <ul>
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i><span>Início</span></a></li>
+            <li><a href="../biblioteca1.html"><i class="fa-solid fa-book-open-reader"></i><span>Biblioteca</span></a></li>
+            <li> <a href="paginas/area-de-leitura.html"><i class="fa-solid fa-hand-holding-heart"></i><span>Ajude o Projeto</span></a></li>
+        </ul>
+    </menu>
+
+      <aside>
+        <h3>Nota do Editor</h3>
+        <p>Este site possui fins puramente históricos, literários e académicos. O nosso objetivo é preservar e disponibilizar o acesso à literatura antiga.</p>
+    </aside>
+
     <footer>
-        <p>&copy; 2026 Portal Livros Apócrifos. Transcrição Semântica, Revisão Codicológica e Aparelho Crítico.</p>
+         <p> &copy; 2026 Site criado para fins acâmedicos. Todos os direitos reservado</p>
+        <p>Autor: <em>João de Sousa António</em> </p>
     </footer>
 
 </body>
